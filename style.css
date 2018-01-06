@@ -28,7 +28,9 @@ a {
 	text-decoration: none;
 	color: #ff6666;
 	transition: .3s ease;
+	padding-bottom: px;
 	border-bottom: 1px solid white;
+
 }
 
 a:hover {
@@ -117,7 +119,7 @@ h3 {
 /* Carousel Styles*/
 
 .carousel {
-	background: linear-gradient(rgba(47,79,79,0.1), rgba(30,30,30,0.5)),url(assets/header.jpg);
+	background: linear-gradient(rgba(47,79,79,0.1), rgba(30,30,30,0.3)),url(assets/header.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 20px;
@@ -388,9 +390,9 @@ figcaption {
 /* About Styles */
 
 .about {
-	background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(assets/background-about.jpeg);
+	background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1486129273931-27820249c615?auto=format&fit=crop&w=2550&q=80);
 	background-size: cover;
-	background-position-y: -100px; 
+	background-repeat: no-repeat;
 	margin-top: 100px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -486,11 +488,11 @@ figcaption {
 }
 
 .sponsor-logo {
-	padding: 20px 20px;
+	padding: 10px 10px;
 }
 
 .sponsors img {
-	max-width: 80%;
+	max-width: 70%;
 }
 
 .sponsors-border {
@@ -647,6 +649,15 @@ figcaption {
 	list-style-type: none;
 	padding-left: 0;
 }
+
+.help a {
+	border-bottom: 1px solid #f8f8f8;
+}
+
+.help a:hover {
+	border-bottom: 1px solid #ff6666;
+}
+
 
 .help li {
 	padding: 5px;
